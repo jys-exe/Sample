@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controller</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./ps logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">Game Controller</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="./menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 V2 <br> Dualshock 5</h2>
+                <h3>Wireless Controller for Playstation 5</h3>
+                <p>(compatible/Generic)</p>
+                <h4>$30.40</h4>
+                <button type="button">Buy Now <img src="./Icons8-Ios7-Arrows-Right.64.png" ></button>
+            </div>
+            <div class="col-2">
+                <img src="./controller-removebg-preview.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="./cart.png" >
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+           <a href="https://www.facebook.com/"> <img src="./download.png" ></a>
+         
+          <a href="https://www.instagram.com/"> <img src="./instagram.png" ></a>
+          <a href="https://twitter.com/?lang=en-in">  <img src="./twitter.png" ></a>
+        </div>
+    </div>
+       <script>
+        var menulist = document.getElementById("menulist")
+
+        menulist.style.maxHeight="0px";
+
+        function togglemenu(){
+            if( menulist.style.maxHeight="0px")
+            {
+                menulist.style.maxHeight="130px";
+            }
+            else{
+                menulist.style.maxHeight="0px";
+            }
+        }
+       </script>
+  
+</body>
+</html>
